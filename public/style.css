@@ -1,0 +1,21 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: antiquewhite;
+}
+
+.group_name {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#name {
+    font-family: "Libre Caslon Display", serif;
+    font-size: 15vw;
+    text-align: center;
+}
